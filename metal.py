@@ -1,6 +1,6 @@
 #!/usr/bin/python3.5
 
-#This programs contains links to multiple metal radio stations and can be listend through the command line
+#This programs contains links to multiple metal radio stations.  You can choose your option and listen through the command line.
 
 import subprocess
 from subprocess import Popen

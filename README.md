@@ -4,4 +4,5 @@ It's nothing fancy, but I wanted a command line way of accessing multiple metal 
 
 ![Metal to the End!](https://github.com/fornitsumfornis/Metal-Radio-CLI/blob/master/1.png)
 
-
+##Dependencies
+This depends on myplayer (sudo apt-get install myplayer -y), python (sudo apt-get install python3.5 -y), Pip (sudo apt-get install python-pip -y) and finally Colroama (pip install colorama).

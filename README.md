@@ -12,4 +12,4 @@ Additionally to filter out extraneous info open up your .mplayer/config file and
 lirc=no  
 prefer-ipv4=yes
 
-This should filter out all of the error messsages and leave you with the just the artist and song title! (Plus a pesky semi-colon I haven't figured out how to get rid of yet.)
+This should filter out all of the error messsages and leave you with the just the artist and song title! 

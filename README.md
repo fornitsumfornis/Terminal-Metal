@@ -12,4 +12,15 @@ Additionally to filter out extraneous info open up your .mplayer/config file and
 lirc=no  
 prefer-ipv4=yes
 
-This should filter out all of the error messsages and leave you with the just the artist and song title! 
+This should filter out all of the error messsages and leave you with the just the artist and song title!
+
+## Installation
+
+git clone https://github.com/fornitsumfornis/Metal-Radio-CLI.git
+cd Metal-Radio-CLI
+chmod 755 metal.py
+sudo mv metal.py /usr/local/bin
+
+## Usage
+
+To operate, simply open up the command line and type "metal.py".  Choose your station and headbang away!

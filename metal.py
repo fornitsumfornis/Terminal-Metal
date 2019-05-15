@@ -1,18 +1,20 @@
 #!/usr/bin/python3.5
 
-#This programs contains links to multiple metal radio stations and can be listend through the command line
+#This programs contains links to multiple hard rock and metal radio stations and can be listend through the command line!
 
 import subprocess
-from subprocess import Popen
 from colorama import Fore, Back, Style
 
+#Printing MPlayer instructions
+
 def instructions():
+    subprocess.check_call(['clear'], shell = True)
     print(Fore.YELLOW+'********************************************************')
     print(Fore.YELLOW+'*',Fore.MAGENTA+'Press "q" to quit, "p" to pause',Fore.YELLOW+'                     *')
     print(Fore.YELLOW+'*',Fore.MAGENTA+'Press "9" to decrease volume, "0" to increase volume',Fore.YELLOW+'*')
     print(Fore.YELLOW+'********************************************************',)
 
-
+#Listing out all of the stations
 def query():
     print(Style.BRIGHT)
     print(Fore.GREEN + '\n***Welcome to the Metal Internet Radio Player!***')

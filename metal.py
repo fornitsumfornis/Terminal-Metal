@@ -62,7 +62,7 @@ def query():
     elif (rad == 8):
         instructions()
         print(Fore.GREEN + 'Wild Rock Radio - Los Angeles, California, USA\n')
-        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://64.150.176.87:8287 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://64.150.176.87:8287 | cut -d "\'" -s -f2 --output-delimiter=" "'], shell = True)
     else:
         print('\nKickass!  See you later!\n')
 

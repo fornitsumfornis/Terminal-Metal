@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Terminal Metal
+GenericName=Terminal Metal
+GenericName[de]=TerminalMetal
+Comment=Rock out to some Metal!
+Comment[en_CA]=Rock out to some Metal!
+Comment[en_GB]=Rock out to some Metal!
+Comment[id]=Rock out to some Metal!
+TryExec=metal.py
+Exec=metal.py %F
+Terminal=true
+Type=Application
+Keywords=Music;Audio;Metal
+Icon=terminal-metal-32.png
+Categories=Sound & Video;
+StartupNotify=false

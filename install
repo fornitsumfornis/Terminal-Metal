@@ -21,7 +21,7 @@ if [ $choice == 'y' ];
 		chmod 755 ~/Terminal-Metal/metal.py
 		chmod 755 ~/Terminal-Metal/metal.desktop
 		sudo mv ~/Terminal-Metal/metal.py /usr/local/bin
-		sudo mv ~/Terminal-Metal/terminal-metal.svg usr/share/pixmaps
+		sudo mv ~/Terminal-Metal/terminal-metal.svg /usr/share/pixmaps
 		sudo cp ~/Terminal-Metal/metal.desktop /usr/share/applications
 		mv ~/Terminal-Metal/metal.desktop ~/Desktop 
 		cd ~

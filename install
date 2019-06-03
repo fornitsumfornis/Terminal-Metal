@@ -10,6 +10,7 @@ if [ $choice == 'y' ];
 	
 		if [ -f ~/.mplayer/config ];
 			then
+				mkdir ~/.mplayer
 				touch ~/.mplayer/config
 				echo "lirc=no" >>~/.mplayer/config
 				echo "prefer-ipv4=yes" >>~/.mplayer/config

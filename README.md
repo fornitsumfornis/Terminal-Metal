@@ -18,7 +18,7 @@ This should filter out all of the error messsages and leave you with the just th
 
 git clone https://github.com/fornitsumfornis/Terminal-Metal.git
 
-cd Terminal-Metal-master
+cd Terminal-Metal
 
 chmod 755 metal.py  
 

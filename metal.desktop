@@ -11,6 +11,6 @@ Exec=metal.py %F
 Terminal=true
 Type=Application
 Keywords=Music;Audio;Metal
-Icon=terminal-metal.svg
+Icon=/usr/share/pixmaps/terminal-metal.svg
 Categories=Sound & Video;
 StartupNotify=false

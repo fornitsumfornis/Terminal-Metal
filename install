@@ -10,13 +10,12 @@ if [ $choice == 'y' ];
 	
 		if [ -f ~/.mplayer/config ];
 			then
-				mkdir ~/.mplayer
+				echo "lirc=no" >>~/.mplayer/config
+				echo "prefer-ipv4=yes">>~/.mplayer/configmkdir ~/.mplayer
+			else
 				touch ~/.mplayer/config
 				echo "lirc=no" >>~/.mplayer/config
-				echo "prefer-ipv4=yes" >>~/.mplayer/config
-			else 
-				echo "lirc=no" >>~/.mplayer/config
-				echo "prefer-ipv4=yes">>~/.mplayer/config
+				echo "prefer-ipv4=yes" >>~/.mplayer/config			
 		fi
 	
 		chmod 755 ~/Terminal-Metal/metal.py

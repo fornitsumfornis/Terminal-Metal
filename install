@@ -5,14 +5,25 @@ read choice
 if [ $choice == 'y' ]; then
 	sudo apt-get install mplayer -y python3.5 -y python3-pip -y 
 	pip3 install colorama
+	
+	if [ -f ~/.mplayer/config ] 
+	then
+	touch ~/.mplayer/config
 	echo "lirc=no" >>~/.mplayer/config
 	echo "prefer-ipv4=yes" >>~/.mplayer/config
+	else 
+	echo "lirc="no" >>~/.mplayer/config
+	echo "prefer-ipv4=yes">>~/.mplayer/config
+	fi
+	
 	chmod 755 ~/Terminal-Metal/metal.py
+	chmod 755 ~/Terminal-Metal/metal.desktop
 	sudo mv ~/Terminal-Metal/metal.py /usr/local/bin
 	sudo mv ~/Terminal-Metal/terminal-metal.svg usr/share/pixmaps
 	sudo cp ~/Terminal-Metal/metal.desktop /usr/share/applications
 	mv ~/Terminal-Metal/metal.desktop ~/Desktop 
-	rm -r ~/Terminal-Metal
+	cd ~
+	sudo rm -r ~/Terminal-Metal
 else
 	echo "Exiting the program...."
 fi

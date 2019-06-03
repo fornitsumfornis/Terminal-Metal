@@ -9,7 +9,7 @@ if [ $choice == 'y' ]; then
 	echo "prefer-ipv4=yes" >>~/.mplayer/config
 	chmod 755 ~/Terminal-Metal/metal.py
 	sudo mv ~/Terminal-Metal/metal.py /usr/local/bin
-	sudo mv ~/Terminal-Metal/terminal-metal.svg/ usr/share/pixmaps
+	sudo mv ~/Terminal-Metal/terminal-metal.svg usr/share/pixmaps
 	sudo cp ~/Terminal-Metal/metal.desktop /usr/share/applications
 	mv ~/Terminal-Metal/metal.desktop ~/Desktop 
 	rm -r ~/Terminal-Metal

@@ -12,5 +12,5 @@ Terminal=true
 Type=Application
 Keywords=Music;Audio;Metal
 Icon=/usr/share/pixmaps/terminal-metal.svg
-Categories=Sound & Video;
+Categories=AudioVideo;Audio;Sound & Video;
 StartupNotify=false

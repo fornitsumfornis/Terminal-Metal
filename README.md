@@ -21,6 +21,9 @@ cd Terminal-Metal-master
 chmod 755 metal.py  
 sudo mv metal.py /usr/local/bin
 
+Alternatively there is an install script that can be run that should install icons to the desktop and the menu.  
+Just chmod 755 install then bash install, enter your password and it should install everything for you.
+
 ## Usage
 
 To operate, simply open up the command line and type "metal.py".  Choose your station and headbang away!

@@ -14,6 +14,10 @@ prefer-ipv4=yes
 
 This should filter out all of the error messsages and leave you with the just the artist and song title!
 
+## Distributions
+
+It can work in any distro but the insall script only works in debian systems.
+
 ## Installation
 
 git clone https://github.com/fornitsumfornis/Terminal-Metal.git

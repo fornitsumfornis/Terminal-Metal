@@ -4,14 +4,15 @@ echo "Would you like to proceed? [y/n]"
 read choice
 if [ $choice == 'y' ]; then
 	sudo apt-get install mplayer -y python3.5 -y python3-pip -y 
-	pip install colorama
-	echo "lirc=no\n" >>~/.mplayer/config
-	echo "prefer-ipv4=yes\n" >>~/.mplayer/config
-	chmod 755 ~/Downloads/Terminal-Metal-master/metal.py
-	sudo mv ~/Downloads/Terminal-Metal-master/metal.py /usr/local/bin
-	sudo mv ~/Downloads/Terminal-Metal-master/terminal-metal.svg/ usr/share/pixmaps
-	sudo cp ~/Downloads/Terminal-Metal-master/metal.desktop /usr/share/applications
-	mv ~/Downloads/Terminal-Metal-master/metal.desktop ~/Desktop
+	pip3 install colorama
+	echo "lirc=no" >>~/.mplayer/config
+	echo "prefer-ipv4=yes" >>~/.mplayer/config
+	chmod 755 ~/Terminal-Metal/metal.py
+	sudo mv ~/Terminal-Metal/metal.py /usr/local/bin
+	sudo mv ~/Terminal-Metal/terminal-metal.svg/ usr/share/pixmaps
+	sudo cp ~/Terminal-Metal/metal.desktop /usr/share/applications
+	mv ~/Terminal-Metal/metal.desktop ~/Desktop 
+	rm -r ~/Terminal-Metal
 else
 	echo "Exiting the program...."
 fi

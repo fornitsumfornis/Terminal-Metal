@@ -16,8 +16,8 @@ This should filter out all of the error messsages and leave you with the just th
 
 ## Installation
 
-git clone https://github.com/fornitsumfornis/Metal-Radio-CLI.git   
-cd Metal-Radio-CLI  
+git clone https://github.com/fornitsumfornis/Terminal-Metal.git
+cd Terminal-Metal-master
 chmod 755 metal.py  
 sudo mv metal.py /usr/local/bin
 

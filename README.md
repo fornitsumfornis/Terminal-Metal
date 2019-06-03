@@ -29,4 +29,4 @@ Just chmod 755 install then bash install, enter your password and it should inst
 
 ## Usage
 
-To operate, simply open up the command line and type "metal.py".  Choose your station and headbang away!
+To operate, simply open up the command line and type "metal.py".  Choose your station and headbang away!  If you chose the install script it should be located under "Sound & Video".

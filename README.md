@@ -16,7 +16,7 @@ This should filter out all of the error messsages and leave you with the just th
 
 ## Distributions
 
-It can work in any distro but the insall script only works in debian systems.
+The actual script, when placed in the /usr/local/bin folder, will work in any linux distribution.  The install script, however, only works in debian and debian based distributions.
 
 ## Installation
 

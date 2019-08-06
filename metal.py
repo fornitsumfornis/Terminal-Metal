@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/usr/bin/python3
 
 #This programs contains links to multiple metal radio stations and can be listend through the command line
 

@@ -18,14 +18,14 @@ if [ $choice == 'y' ];
 				echo "prefer-ipv4=yes" >>~/.mplayer/config			
 		fi
 	
-		chmod 755 ~/Terminal-Metal/metal.py
-		chmod 755 ~/Terminal-Metal/metal.desktop
-		sudo mv ~/Terminal-Metal/metal.py /usr/local/bin
-		sudo mv ~/Terminal-Metal/terminal-metal.svg /usr/share/pixmaps
-		sudo cp ~/Terminal-Metal/metal.desktop /usr/share/applications
-		mv ~/Terminal-Metal/metal.desktop ~/Desktop 
+		chmod 755 ~Downloads/Terminal-Metal-master/metal.py
+		chmod 755 ~Downloads/Terminal-Metal-master/metal.desktop
+		sudo mv ~/Downloads/Terminal-Metal/metal-master.py /usr/local/bin
+		sudo mv ~/Downloads/Terminal-Metal-master/terminal-metal.svg /usr/share/pixmaps
+		sudo cp ~/Downloads/Terminal-Metal-master/metal.desktop /usr/share/applications
+		mv ~/Downloads/Terminal-Metal-master/metal.desktop ~/Desktop 
 		cd ~
-		sudo rm -r ~/Terminal-Metal
+		sudo rm -r ~/Terminal-Metal-master
 	else
 		echo "Exiting the program...."
 fi

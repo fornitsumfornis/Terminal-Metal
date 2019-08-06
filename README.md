@@ -29,8 +29,18 @@ chmod 755 metal.py
 sudo mv metal.py /usr/local/bin
 
 Alternatively there is an install script that can be run that should install icons to the desktop and the menu.  
-Just chmod 755 install then bash install, enter your password and it should install everything for you.
+Upon downloading...
+
+cd ~/Downloads
+chmod 755 install 
+bash install
+
+And everything should install for you.  
 
 ## Usage
 
 To operate, simply open up the command line and type "metal.py".  Choose your station and headbang away!  If you chose the install script it should be located under "Sound & Video".
+
+## Problems
+
+I have run into issues using my script on certain networks.  For example, I have a guest network at the University that I work at and there are limits to what stations will work on our guest network.

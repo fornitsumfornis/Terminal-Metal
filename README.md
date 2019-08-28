@@ -22,11 +22,11 @@ The actual script, when placed in the /usr/local/bin folder, will work in any li
 
 git clone https://github.com/fornitsumfornis/Terminal-Metal.git
 
-cd Terminal-Metal
+cd Terminal-Metal-Master
 
-chmod 755 metal.py  
+chmod 755 metal  
 
-sudo mv metal.py /usr/local/bin
+sudo mv metal /usr/local/bin
 
 Alternatively there is an install script that can be run that should install icons to the desktop and the menu.  
 Upon downloading...

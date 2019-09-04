@@ -44,7 +44,7 @@ def query():
     elif (rad == "4"):
         instructions()
         print(Fore.GREEN+'High Voltage - Scarborough, Ontario, Canada\n')
-        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://strm112.1.fm/highvoltage_mobile_mp3 | cut -d "\'" -s -f 2- --output-delimiter=" "'], shell=True)
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://strm112.1.fm/highvoltage_mobile_mp3 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell=True)
     elif (rad == "5"):
         instructions()
         print(Fore.GREEN+'The Metal MIXX - Tampa, Florida, USA\n')

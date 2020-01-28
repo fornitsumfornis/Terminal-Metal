@@ -35,7 +35,7 @@ def query():
     print('       7    Rock Antenne')
     print('       8    Wild Rock Radio')
     print('       9    OpenFM - 500 Heavy Hits')
-    print('       10   Exit the Program\n')
+    print('       q    Exit the Program\n')
     rad=input(Fore.CYAN + '    Please Choose a station: ')
     print('\n')
     if (rad == "1"):
@@ -102,7 +102,7 @@ def query():
         print(Fore.GREEN +'Open FM - 500 Heavy Hits - Warsaw, Poland\n')
         subprocess.check_call(['mplayer -nocache -afm --really-quiet http://stream.open.fm/54 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
     
-    elif (rad == "10"):
+    elif (rad == "q"):
         print('\nKickass!  See you later!\n')
     
     else:

@@ -33,8 +33,9 @@ def query():
     print('       5    The Metal MIXX')
     print('       6    100hitz Heavy Metal')
     print('       7    Rock Antenne')
-    print('       8    Wild Rock Radio')
-    print('       9    OpenFM - 500 Heavy Hits')
+    print('       8    Radio BOB! BOB\'s Metalcore')
+    print('       9    Open FM - 500 Heavy Hits')
+    print('       10   Rock Antenne')
     print('       q    Exit the Program\n')
     rad=input(Fore.CYAN + '    Please Choose a station: ')
     print('\n')
@@ -43,7 +44,7 @@ def query():
         header = "MetalRock.FM - Baltimore Maryland, USA"
         title(header)
         print(Fore.GREEN +'MetalRock.FM - Baltimore, Maryland, USA\n')
-        subprocess.check_call(['mplayer -afm --really-quiet http://bb30.sonixcast.com:9408/stream | cut -d "\'" -s -f 2 --output-delimiter=" " '], shell=True)
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://kathy.torontocast.com:2820 | cut -d "\'" -s -f 2 --output-delimiter=" " '], shell=True)
          
     elif (rad == "2"):
         instructions()
@@ -71,7 +72,7 @@ def query():
         header = "The Metal MIXX - Tampa, Florida, USA"
         title(header)
         print(Fore.GREEN+'The Metal MIXX - Tampa, Florida, USA\n')
-        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://listen.djcmedia.com/metalmixxhigh | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet https://ais-sa2.cdnstream1.com/1987_128.mp3 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
     
     elif (rad == "6"):
         instructions()
@@ -90,10 +91,10 @@ def query():
     
     elif (rad == "8"):
         instructions()
-        header = "Wild Rock Radio - Los Angeles, California, USA"
+        header = "Radio BOB! BOB\'s Metalcore - Kassel, Germany"
         title(header)
-        print(Fore.GREEN +'Wild Rock Radio - Los Angeles, California, USA\n')
-        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://64.150.176.87:8287 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
+        print(Fore.GREEN +'Radio BOB! BOB\' Metalcore - Kassel, Germany\n')
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet http://streams.radiobob.de/metalcore/mp3-192/tunein/ | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
     
     elif (rad == "9"):
         instructions()
@@ -102,6 +103,13 @@ def query():
         print(Fore.GREEN +'Open FM - 500 Heavy Hits - Warsaw, Poland\n')
         subprocess.check_call(['mplayer -nocache -afm --really-quiet http://stream.open.fm/54 | cut -d "\'" -s -f 2 --output-delimiter=" "'], shell = True)
     
+    elif(rad == "10"):
+        instructions()
+        header = "Rock Antenne - Ismaning, Germany"
+        title(header)
+        print(Fore.GREEN +'Rock Antenne - Ismaning, Germany\n')
+        subprocess.check_call(['mplayer -nocache -afm --really-quiet https://s5-webradio.rockantenne.de/heavy-metal/stream/mp3?aw_0_1st.playerid=radio.de | cut -d "\'" -s -f 2 --output-delimiter= " "'], shell = True)
+
     elif (rad == "q"):
         print('\nKickass!  See you later!\n')
     
